@@ -127,7 +127,7 @@ class Elongator:
 		if li == 0:
 			return []
 		if li == 1:
-			return i[0]*length
+			return i*length
 		if type == "middlemid":
 			return self.middlemid_elongation(i, length)
 		elif type == "sidesmid":
